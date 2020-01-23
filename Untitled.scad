@@ -1,0 +1,72 @@
+w = 93;
+d = 94;
+h = 5;
+
+difference(){
+cube([w,d,h]);
+
+difference(){
+    translate([+10,+10,-1])
+    color("red")cube([13,13,8]);
+    }
+difference(){
+    translate([+30,+10,-1])
+    color("red")cube([13,13,8]);
+    }
+difference(){
+    translate([+50,+10,-1])
+    color("red")cube([13,13,8]);
+    }
+difference(){
+    translate([+70,+10,-1])
+    color("red")cube([13,13,8]);
+    } 
+difference(){
+    translate([+10,+30,-1])
+    color("red")cube([13,13,8]);
+    } 
+difference(){
+    translate([+30,+30,-1])
+    color("red")cube([13,13,8]);
+    }
+difference(){
+    translate([+50,+30,-1])
+    color("red")cube([13,13,8]);
+    }
+difference(){
+    translate([+70,+30,-1])
+    color("red")cube([13,13,8]);
+    }
+difference(){
+    translate([+10,+50,-1])
+    color("red")cube([13,13,8]);
+    }
+difference(){
+    translate([+30,+50,-1])
+    color("red")cube([13,13,8]);
+    }
+difference(){
+    translate([+50,+50,-1])
+    color("red")cube([13,13,8]);
+    }
+difference(){
+    translate([+70,+50,-1])
+    color("red")cube([13,13,8]);
+    }
+difference(){
+    translate([+10,+70,-1])
+    color("red")cube([13,13,8]);
+    }
+difference(){
+    translate([+30,+70,-1])
+    color("red")cube([13,13,8]);
+    }
+difference(){
+    translate([+50,+70,-1])
+    color("red")cube([13,13,8]);
+    }
+difference(){
+    translate([+70,+70,-1])
+    color("red")cube([13,13,8]);
+    }
+}
